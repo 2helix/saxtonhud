@@ -9,7 +9,7 @@ You can find my plans for this hud [here](/TODO)
 
 # Credits:  
 ```
-Jarate King - [TF2-Hud-Reference](https://github.com/JarateKing/TF2-Hud-Reference)
+Jarate King - TF2-Hud-Reference
 Raysfire - Tutorials from scratch series
 Doodles - DoodleStuff editing tutorial
 Hypnotize - Advice
