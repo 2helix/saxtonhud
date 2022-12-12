@@ -2,7 +2,7 @@
 A hud inspired by the pre-casual TF2 Hud with some personal touches. 
 
 # To Do:
-You can find my plans for this hud [here](/TODO.md)
+You can find my plans for this hud [here](/TODO)
 
 # Credits:  
 ```
