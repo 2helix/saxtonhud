@@ -1,7 +1,7 @@
-# List of customizations I plan on implementing.
+List of customizations I plan on implementing.
 
-# Main Menu
-```
+Main Menu
+
 Adding gradients to main menu buttons
 Adding custom icons to main menu buttons
 Relocating the XPBar to the bottom of the screen, just above BackgroundFooter
@@ -9,4 +9,3 @@ Creating a custom TF2 logo
 Adding custom buttons for reloading the hud, opening the console, map itemtest and map tr_walkway
 Adding custom character images as shown in the main menu concept
 Adding a background to all menu items placed on BackgroundFooter to improve readability
-```
