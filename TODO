@@ -1,19 +1,11 @@
-## List of customizations I plan on implementing.
+List of customizations I plan on implementing.
 
-## Main Menu
-```
+Main Menu
+
 Adding gradients to main menu buttons
 Adding custom icons to main menu buttons
 Relocating the XPBar to the bottom of the screen, just above BackgroundFooter
-Relocating the elements of pvprankpanel.res on the bottom of the screen
 Creating a custom TF2 logo
 Adding custom buttons for reloading the hud, opening the console, map itemtest and map tr_walkway
 Adding custom character images as shown in the main menu concept
-Installing gobold typeface and replacing certain main menu fonts with it
-Adding player stats
-Relocating buttons at the bottom of the screen
-Adjusting the wide & tall values of steamfriendslist for a more compact look
 Adding a background to all menu items placed on BackgroundFooter to improve readability
-```
-
-Might change other elements in the future. Right now I just want to finish the main menu.

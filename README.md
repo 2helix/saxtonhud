@@ -13,7 +13,8 @@ You can find my plans for this hud [here](/TODO)
 Jarate King - TF2-Hud-Reference
 Raysfire - Tutorials from scratch series
 Doodles - DoodleStuff editing tutorial
-Hypnotize - Advice
+Hypnotize - Help with finding certain files
+quickkennedy - Help with troubleshooting
 HUDS.TF Official Server - Directions & Advice
 ```
 
