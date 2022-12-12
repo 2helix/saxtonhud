@@ -6,6 +6,7 @@ A hud inspired by the pre-casual TF2 Hud with some personal touches. I created a
 
 # To Do:
 You can find my plans for this hud [here](/TODO)
+This is the innitial concept, not the current state of the hud.
 
 # Credits:  
 ```
