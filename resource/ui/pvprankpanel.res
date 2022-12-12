@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"c10"
+		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"3"		
 		"wide"			"f0"
@@ -49,8 +49,9 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"c100"
-			"ypos"			"c220"	
+			"xpos"			"c-150"
+			"ypos"			"c10"
+			"zpos"			"1"		
 			"wide"			"o1"
 			"tall"			"p0.12"
 			"autoResize"	"0"
@@ -187,19 +188,26 @@
 		"xpos"			"rs1"
 		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"260"
+		"wide"			"600"
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
+		if_mini
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"tall"			"35"
+			"wide"			"505"
+		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
+			"xpos"			"120"
+			"ypos"			"345"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
@@ -211,14 +219,18 @@
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"visible"	"0"
+			}
 		}
 
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"19"
+			"xpos"			"120"
+			"ypos"			"362"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -248,8 +260,8 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
+			"xpos"			"120"
+			"ypos"			"375"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
@@ -291,6 +303,12 @@
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"			"rs1-10"
+				"ypos"			"0"
+				"wide"			"p0.85"
+			}
 
 			"XPBar"
 			{
@@ -313,8 +331,8 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
+					"visible"		"1"
+					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
@@ -331,8 +349,8 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"0"
-					"enabled"		"0"
+					"visible"		"1"
+					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
@@ -399,14 +417,18 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"50"
-				"wide"			"f0"
-				"tall"			"p0.45"
+				"xpos"			"170"
+				"ypos"			"350"
+				"wide"			"220"
+				"tall"			"70"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 150"
+				
 
+				"if_mini"
+				{
+					"visible"		"0"
+				}
 
 				"Frame"
 				{
@@ -418,7 +440,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
 				}
 
 
@@ -429,7 +450,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
 					"xpos"			"10"
-					"ypos"			"0"
+					"ypos"			"-2"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -447,7 +468,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
 					"xpos"			"10"
-					"ypos"			"10"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -465,7 +486,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
 					"xpos"			"10"
-					"ypos"			"20"
+					"ypos"			"30"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -484,7 +505,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
 					"xpos"			"c-20"
-					"ypos"			"0"
+					"ypos"			"-2"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -502,7 +523,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
 					"xpos"			"c-20"
-					"ypos"			"10"
+					"ypos"			"15"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -520,7 +541,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
 					"xpos"			"c-20"
-					"ypos"			"20"
+					"ypos"			"30"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -538,13 +559,13 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1"
+					"xpos"			"c-10"
 					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"

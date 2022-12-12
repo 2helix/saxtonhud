@@ -231,8 +231,8 @@
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
@@ -256,13 +256,12 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-256"
-		"ypos"			"cs-0.5-120"
-
-		"zpos"			"-51"
+		"xpos"			"-50"
+		"ypos"			"cs-0.5-20"
+		"zpos"			"1000"
 		"wide"			"1000"
 		"tall"			"1000"
-		"visible"		"0"
+		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -346,11 +345,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-350"
-		"ypos"			"72"
-		"zpos"			"-52"
-		"wide"			"320"
-		"tall"			"100"
+		"xpos"			"c-420"
+		"ypos"			"60"
+		"zpos"			"5"
+		"wide"			"500"
+		"tall"			"500"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -406,7 +405,7 @@
 		"fieldName"		"RankBorder"
 		"xpos"			"c-290"
 		"ypos"			"94"
-		"zpos"			"-100"
+		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
@@ -576,11 +575,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"c-70"
+		"ypos"			"422"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -649,11 +648,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"c-70"
+		"ypos"			"459"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -722,8 +721,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
-		"ypos"			"28"
+		"xpos"			"c-70"
+		"ypos"			"440"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -745,8 +744,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -776,8 +775,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_MOTD"
@@ -1377,12 +1376,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-50"
-		"ypos"			"335"
+		"ypos"			"337"
 		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"150"
+		"wide"			"258"
+		"tall"			"151"
 		"visible"		"1"
-
 
 		"SteamFriendsList"
 		{
@@ -1392,11 +1390,12 @@
 			"ypos"			"rs1-10"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"50"
+			"tall"			"55"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			"bgcolor_override"	"0 0 0 180"
 
-			"columns_count"	"2"
+			"columns_count"	"3"
 			"inset_x"		"10"
 			"inset_y"		"5"
 			"row_gap"		"5"
@@ -1405,8 +1404,9 @@
 
 			"friendpanel_kv"
 			{
-				"wide"		"110"
+				"wide"		"70"
 				"tall"		"20"
+				"bgcolor_override"	"0 0 0 150"
 			}
 			
 			
@@ -1414,17 +1414,20 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
-				"tall"			"f2"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"xpos"			"c117"
+				"ypos"			"2"
+				"tall"			"f3"
+				"wide"			"7" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
+				
+				
 
 				"Slider"
 				{
 					"fgcolor_override"	"TanDark"
+					"bgcolor_override"	"0 0 0 150"
 				}
 		
 				"UpButton"
@@ -2254,6 +2257,7 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
+		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"180"
 		"visible"		"1"
