@@ -185,7 +185,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
+		"xpos"			"40"
 		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"600"
@@ -194,13 +194,6 @@
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
 
 		"NameLabel"
 		{
@@ -214,16 +207,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
+			"textinsetx"	"8"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 180"
+			"paintbackgroundtype" "2"
 
-			if_mini
-			{
-				"visible"	"0"
-			}
 		}
 
 		"DescLine1"
@@ -242,12 +233,6 @@
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
 
 			"fonts"
 			{
@@ -274,12 +259,6 @@
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
@@ -298,32 +277,24 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"100"
 			"ypos"			"0"
-			"zpos"			"-1000"
+			"zpos"			"-51"
 			"wide"			"f70"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
-			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"0"
+				"xpos"			"c-100"
 				"ypos"			"c85"
-				"zpos" 			"-1001"
-				"wide"			"0"
-				"tall"			"0"
+				"zpos" 			"-51"
+				"wide"			"1000"
+				"tall"			"30"
 				"proportionaltoparent"	"1"
-
-	
+				"visible" 		"0"
 
 				"CurrentXPLabel"
 				{
@@ -427,12 +398,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 180"
-				
-
-				"if_mini"
-				{
-					"visible"		"0"
-				}
+				"paintbackgroundtype" "2"
 
 				"Frame"
 				{
@@ -446,8 +412,6 @@
 					"proportionaltoparent"	"1"
 				}
 
-
-	
 				// First column
 				"GamesLabel"
 				{
@@ -461,7 +425,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
@@ -479,7 +443,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
@@ -497,7 +461,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
@@ -516,7 +480,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
@@ -534,7 +498,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -552,7 +516,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
@@ -571,7 +535,7 @@
 					"visible"		"0"
 					"enabled"		"0"
 					"font"			"HudFontSmallest"
-					"fgcolor_override"	"StoreDarkTan"
+					"fgcolor_override"	"CreditsGreen"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"

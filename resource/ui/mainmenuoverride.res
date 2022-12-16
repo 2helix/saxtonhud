@@ -11,8 +11,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgcolor_override"	"0 0 0 240"
-		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -274,14 +272,15 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-44"
-		"ypos"			"cs-0.5-134"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"c-395"
+		"ypos"			"c184"
+		"zpos"			"101"
+		"wide"			"12"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"labelText"		""
@@ -313,8 +312,8 @@
 			"zpos"			"1"
 			"wide"			"f2"
 			"tall"			"f2"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 
@@ -348,7 +347,7 @@
 		"xpos"			"c-440"
 		"ypos"			"60"
 		"zpos"			"5"
-		"wide"			"600"
+		"wide"			"f0"
 		"tall"			"500"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
@@ -575,7 +574,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c-50"
+		"xpos"			"c-10"
 		"ypos"			"422"
 		"zpos"			"1"
 		"wide"			"20"
@@ -648,7 +647,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c-50"
+		"xpos"			"c-10"
 		"ypos"			"459"
 		"zpos"			"1"
 		"wide"			"20"
@@ -721,7 +720,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-50"
+		"xpos"			"c-10"
 		"ypos"			"440"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1375,10 +1374,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"c-30"
+		"xpos"			"c120"
 		"ypos"			"337"
 		"zpos"			"5"
-		"wide"			"258"
+		"wide"			"264"
 		"tall"			"151"
 		"visible"		"1"
 
@@ -1394,6 +1393,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 180"
+			"paintbackgroundtype" "2"
 
 			"columns_count"	"3"
 			"inset_x"		"10"
@@ -1404,9 +1404,10 @@
 
 			"friendpanel_kv"
 			{
+				
 				"wide"		"70"
 				"tall"		"20"
-				"bgcolor_override"	"0 0 0 150"
+			
 			}
 			
 			
@@ -1427,7 +1428,7 @@
 				"Slider"
 				{
 					"fgcolor_override"	"TanDark"
-					"bgcolor_override"	"0 0 0 150"
+					"paintbackgroundtype" "2"
 				}
 		
 				"UpButton"
@@ -2264,7 +2265,8 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}	
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -2284,63 +2286,50 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-300"
+		"xpos"			"c-370"
+		"ypos"			"rs1-240"
 		"wide"			"195"
-		"tall"			"26"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textinsetx"	"25"
+		"textinsetx"	"8"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
+			
 		"command"		"engine open_charinfo"
 		"labeltext"		"The Spoils of War"
+		"fgcolor" 		"77 70 51 255"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
 			
-		"paintbackground"	"1"
-				
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
 		"image_drawcolor"	"235 226 202 255"	
 	}
 
-	"StoreHasNewItemsImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
-		"ypos"			"r50"
-		"zpos"			"13"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../vgui/new"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-	}
 
 	"GeneralStoreButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-270"
+		"xpos"			"c-370"
+		"ypos"			"rs1-200"
 		"wide"			"195"
-		"tall"			"26"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"textinsetx"	"25"
+		"textinsetx"	"8"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
@@ -2354,7 +2343,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"paintbackground"	"1"
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
 				
 		"image_drawcolor"	"235 226 202 255"	
 	}
@@ -2363,11 +2354,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-240"
+		"xpos"			"c-370"
+		"ypos"			"rs1-160"
 		"wide"			"195"
-		"tall"			"26"
-		"tall"			"25"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2376,12 +2366,15 @@
 		"labelText"		"Settings"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"textinsetx"	"25"
+		"textinsetx"	"8"
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
 		
 
 		"navUp"			"Notifications_Panel"
@@ -2399,11 +2392,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-210"
+		"xpos"			"c-370"
+		"ypos"			"rs1-120"
 		"wide"			"195"
-		"tall"			"26"
-		"tall"			"25"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2412,20 +2404,21 @@
 		"labelText"		"Advanced Settings"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"textinsetx"	"18"
+		"textinsetx"	"8"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
-		RoundedCorners"	"5"
-
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
+		
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
 					
@@ -2490,8 +2483,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2631,8 +2624,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2678,8 +2671,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2725,8 +2718,8 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
