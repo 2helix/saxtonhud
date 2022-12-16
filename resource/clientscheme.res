@@ -3093,15 +3093,6 @@ Scheme
 			}
 		}
 		
-		"Titling16"
-		{
-			
-			"name"		"BuiltTitlingRg-Bold"
-			"tall"		"16"
-			"antialias" "1"
-		
-		}
-		
 		
 	}
 

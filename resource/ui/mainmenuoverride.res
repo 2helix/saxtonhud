@@ -272,7 +272,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-398"
+		"xpos"			"c-380"
 		"ypos"			"c184"
 		"zpos"			"101"
 		"wide"			"12"
@@ -2282,6 +2282,26 @@
 		"scaleImage"	"1"
 	}	
 
+	"BG"
+    {
+        "ControlName"                       "EditablePanel"
+        "fieldName"                         "BG"
+        "xpos"                              "55"
+        "ypos"                              "163"
+        "zpos"                              "0"
+        "wide"                              "200"
+        "tall"                              "200"
+        "visible"                           "1"
+        "enabled"                           "1"
+        "proportionaltoparent"              "1"
+        "paintbackground"                   "1"
+        "paintbackgroundtype"               "0"
+        "bgcolor_override"					"0 0 0 190"
+		"paintbackgroundtype" 				"2"
+		"roundedcorners" 					"4"
+     }
+	  
+	  
 	"GameBrowseButton"
 	{
 		"ControlName"	"CExImageButton"
