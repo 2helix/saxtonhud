@@ -49,8 +49,8 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"c-155"
-			"ypos"			"c180"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"1"		
 			"wide"			"100"
 			"tall"			"100"
@@ -61,16 +61,7 @@
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
-				"wide"		"200"
-				"tall"		"200"
-			}
-
 			"paintbackground"	"0"
-
 			"render_texture"	"0"
 		
 			"model"
@@ -85,11 +76,6 @@
 				"origin_y"		"0"
 				"origin_z"		"0"
 				"spotlight"	"1"
-
-				if_mini
-				{
-					"origin_x"		"55"
-				}
 
 				"animation"
 				{
@@ -207,7 +193,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontSmallishBold"
-			"textinsetx"	"8"
+			"textinsetx"	"10"
+			"textinsety"	"2"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"

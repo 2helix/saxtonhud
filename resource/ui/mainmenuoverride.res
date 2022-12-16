@@ -272,7 +272,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-395"
+		"xpos"			"c-398"
 		"ypos"			"c184"
 		"zpos"			"101"
 		"wide"			"12"
@@ -574,7 +574,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c-10"
+		"xpos"			"c97"
 		"ypos"			"422"
 		"zpos"			"1"
 		"wide"			"20"
@@ -647,7 +647,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c-10"
+		"xpos"			"c97"
 		"ypos"			"459"
 		"zpos"			"1"
 		"wide"			"20"
@@ -720,7 +720,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-10"
+		"xpos"			"c97"
 		"ypos"			"440"
 		"zpos"			"1"
 		"wide"			"32"
@@ -2281,6 +2281,39 @@
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	
+
+	"GameBrowseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"GameBrowseButton"
+		"xpos"			"c-370"
+		"ypos"			"rs1-280"
+		"wide"			"195"
+		"tall"			"34"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"8"
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"west"
+		"default"		"1"
+			
+		"command"		"openserverbrowser"
+		"labeltext"		"Join the brawl"
+		"fgcolor" 		"77 70 51 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+			
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
+		"image_drawcolor"	"235 226 202 255"	
+	}
 
 	"CharacterSetupButton"
 	{
