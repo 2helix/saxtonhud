@@ -272,7 +272,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"c-380"
+		"xpos"			"c-365"
 		"ypos"			"c184"
 		"zpos"			"101"
 		"wide"			"12"
@@ -344,7 +344,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-440"
+		"xpos"			"0"
 		"ypos"			"60"
 		"zpos"			"5"
 		"wide"			"f0"
@@ -1396,10 +1396,10 @@
 			"paintbackgroundtype" "2"
 
 			"columns_count"	"3"
-			"inset_x"		"10"
+			"inset_x"		"4"
 			"inset_y"		"5"
-			"row_gap"		"5"
-			"column_gap"	"10"
+			"row_gap"		"6"
+			"column_gap"	"12"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
@@ -1407,6 +1407,7 @@
 				
 				"wide"		"70"
 				"tall"		"20"
+	
 			
 			}
 			
@@ -1416,10 +1417,10 @@
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
 				"xpos"			"c117"
-				"ypos"			"2"
+				"ypos"			"3"
 				"tall"			"f3"
-				"wide"			"7" // This gets slammed from client schme.  GG.
-				"zpos"			"1000"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 				
@@ -2257,7 +2258,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"414"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"180"
@@ -2272,12 +2273,12 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"412"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"f0"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}	
@@ -2296,7 +2297,7 @@
         "proportionaltoparent"              "1"
         "paintbackground"                   "1"
         "paintbackgroundtype"               "0"
-        "bgcolor_override"					"0 0 0 190"
+        "bgcolor_override"					"0 0 0 180"
 		"paintbackgroundtype" 				"2"
 		"roundedcorners" 					"4"
      }

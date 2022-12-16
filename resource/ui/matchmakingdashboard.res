@@ -600,7 +600,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
-			"textinsety"	"1"
+			"textinsety"	"2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"

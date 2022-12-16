@@ -3093,6 +3093,13 @@ Scheme
 			}
 		}
 		
+		"Coolvetica_Small"
+		{
+			"name"			"Coolvetica Crammed Rg"
+			"tall"			"16"
+			"weight"		"400"
+			"antialias"		"1"
+		}
 		
 	}
 
@@ -5908,9 +5915,10 @@ Scheme
 		
 		"8"
 		{
-		"font" "resource/fonts/built titling bd.ttf"
-		"name" "BuiltTitlingRg-Bold"
+			"font"	"resource/fonts/coolvetica crammed rg.ttf"
+			"name"	"Coolvetica Crammed Rg"
 		}
+		
 		
 	}
 }

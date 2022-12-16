@@ -4,13 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"3"		
 		"wide"			"f0"
 		"tall"			"f0"
-		"proportionaltoparent"	"1"
-		"actionsignallevel"	"2"
 
 		"BelowModelParticlePanel"
 		{
@@ -23,11 +21,6 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
 
 			"ParticleEffects"
 			{
@@ -49,21 +42,15 @@
 		{
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
-			"xpos"			"rls"
-			"ypos"			"rls"
-			"zpos"			"1"		
+			"xpos"			"0"
+			"ypos"			"0"	
 			"wide"			"100"
 			"tall"			"100"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"70"
+			"fov"			"100"
 			"proportionaltoparent"	"1"
 
-			"paintbackground"	"0"
-			"render_texture"	"0"
-		
 			"model"
 			{
 				"force_pos"		"1"
@@ -192,7 +179,7 @@
 			"zpos"			"100"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
+			"font"			"Coolvetica_Small"
 			"textinsetx"	"10"
 			"textinsety"	"2"
 			"fgcolor_override"	"TanLight"
@@ -276,7 +263,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"c70"
+				"ypos"			"c71"
 				"zpos" 			"-51"
 				"wide"			"f0"
 				"tall"			"50"
