@@ -1,11 +1,10 @@
-List of customizations I plan on implementing.
+Main menu is about 60% done.
 
-Main Menu
-
-Adding gradients to main menu buttons
-Adding custom icons to main menu buttons
-Relocating the XPBar to the bottom of the screen, just above BackgroundFooter
-Creating a custom TF2 logo
-Adding custom buttons for reloading the hud, opening the console, map itemtest and map tr_walkway
-Adding custom character images as shown in the main menu concept
-Adding a background to all menu items placed on BackgroundFooter to improve readability
+What's left to do.
+- Custom TF2 logo image
+- Custom SFM character images
+- Custom button icons
+- Adjusting the positions of certain buttons
+- Adjusting friends list width to reduce the cutoff point of names
+- Disabling the overlay that's shown on certain buttons like "settings" and "advanced settings" 
+- Fixing an issue with XPBar that prevents it from being screen-wide
