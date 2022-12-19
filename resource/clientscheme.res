@@ -208,6 +208,12 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		/// My colors //// 
+		
+		"BriefcaseBlue" 			"0 120 180 255"	
+		"BriefcaseRed" 				"170 30 0 255"	
+
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3093,15 +3099,118 @@ Scheme
 			}
 		}
 		
-		"Coolvetica_Small"
+		"BT_Bold12"
 		{
-			"name"			"Coolvetica Crammed Rg"
-			"tall"			"16"
-			"weight"		"400"
-			"antialias"		"1"
+			"1"
+			{
+				"name"		"BuiltTitlingRg-Bold" 
+				"tall"		"12"
+				"antialias" "1"
+			}
 		}
 		
+		"BT_Bold30"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingRg-Bold" 
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		"BT_Bold60"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingRg-Bold" 
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+		
+		"BT_Regular12"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingRG-Regular" 
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"BT_Regular16"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingRG-Regular" 
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		"BT_Regular30"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingRG-Regular" 
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		"BTSB_Regular12"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingSb-Regular" 
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"BTSB_Regular30"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingSb-Regular" 
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		"BTSB_Regular24"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingSb-Regular" 
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"BTLT_Regular12"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingLt-Regular" 
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		"BTLT_Regular30"
+		{
+			"1"
+			{
+				"name"		"BuiltTitlingLt-Regular" 
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+
 	}
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5912,13 +6021,28 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		
 		"8"
 		{
-			"font"	"resource/fonts/coolvetica crammed rg.ttf"
-			"name"	"Coolvetica Crammed Rg"
+			"font" "resource/fonts/built titling bd.ttf"
+			"name" "BuiltTitlingRg-Bold"
 		}
 		
+		"9"
+		{
+			"font" "resource/fonts/built titling lt.ttf"
+			"name" "BuiltTitlingLt-Regular"
+		}
 		
+		"10"
+		{
+			"font" "resource/fonts/built titling rg.ttf"
+			"name" "BuiltTitlingRG-Regular"
+		}
+		
+		"11"
+		{
+			"font" "resource/fonts/built titling sb.ttf"
+			"name" "BuiltTitlingSb-Regular"
+		}
 	}
 }

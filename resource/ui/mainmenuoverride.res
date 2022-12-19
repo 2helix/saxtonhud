@@ -224,13 +224,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
-		"ypos"			"32"
+		"xpos"			"c-340"
+		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"256"
 		"tall"			"64"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
@@ -254,11 +254,11 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"-50"
+		"xpos"			"50"
 		"ypos"			"cs-0.5-20"
-		"zpos"			"1000"
-		"wide"			"-51"
-		"tall"			"1000"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
@@ -279,8 +279,8 @@
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"labelText"		""
@@ -298,7 +298,7 @@
 				
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"paintborder"		"0"
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
@@ -312,8 +312,8 @@
 			"zpos"			"1"
 			"wide"			"f2"
 			"tall"			"f2"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"scaleImage"	"1"
 			"image"			"glyph_options"
 
@@ -346,7 +346,7 @@
 		"fieldName"		"RankPanel"
 		"xpos"			"0"
 		"ypos"			"60"
-		"zpos"			"5"
+		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"500"
 		"visible"		"0"
@@ -1377,7 +1377,7 @@
 		"xpos"			"c120"
 		"ypos"			"337"
 		"zpos"			"5"
-		"wide"			"264"
+		"wide"			"295"
 		"tall"			"151"
 		"visible"		"1"
 
@@ -1396,7 +1396,7 @@
 			"paintbackgroundtype" "2"
 
 			"columns_count"	"3"
-			"inset_x"		"4"
+			"inset_x"		"8"
 			"inset_y"		"5"
 			"row_gap"		"6"
 			"column_gap"	"12"
@@ -1405,9 +1405,8 @@
 			"friendpanel_kv"
 			{
 				
-				"wide"		"70"
+				"wide"		"80"
 				"tall"		"20"
-	
 			
 			}
 			
@@ -1416,8 +1415,8 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"c117"
-				"ypos"			"3"
+				"xpos"			"c133"
+				"ypos"			"4"
 				"tall"			"f3"
 				"wide"			"5" // This gets slammed from client schme.  GG.
 				"zpos"			"1"
@@ -1429,7 +1428,7 @@
 				"Slider"
 				{
 					"fgcolor_override"	"TanDark"
-					"paintbackgroundtype" "2"
+					"paintbackgroundtype" "0"
 				}
 		
 				"UpButton"
@@ -1985,11 +1984,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-47"
-		"ypos"			"437"
+		"xpos"			"c-220"
+		"ypos"			"428"
 		"zpos"			"11"
-		"wide"			"30"
-		"tall"			"25"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
@@ -2003,8 +2002,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p1"
-			"tall"			"25"
+			"wide"			"15"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2019,7 +2018,6 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"RoundedCorners"	"5"
 			
 			"paintbackground"	"1"
 			
@@ -2036,7 +2034,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"5"
+				"xpos"			"1"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
 				"wide"			"15"
@@ -2117,6 +2115,7 @@
 			}				
 		}
 	}
+
 	"MutePlayersButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2287,30 +2286,72 @@
     {
         "ControlName"                       "EditablePanel"
         "fieldName"                         "BG"
-        "xpos"                              "55"
-        "ypos"                              "163"
-        "zpos"                              "0"
-        "wide"                              "200"
+        "xpos"                              "84"
+        "ypos"                              "155"
+        "zpos"                              "-1"
+        "wide"                              "326"
         "tall"                              "200"
         "visible"                           "1"
         "enabled"                           "1"
         "proportionaltoparent"              "1"
-        "paintbackground"                   "1"
-        "paintbackgroundtype"               "0"
-        "bgcolor_override"					"0 0 0 180"
+		
+		
+        "paintbackground"                   "0"
 		"paintbackgroundtype" 				"2"
-		"roundedcorners" 					"4"
-     }
-	  
-	  
-	"GameBrowseButton"
+		"border"							"MainMenuBGBorder"	
+        "bgcolor_override"					"53 48 45 255"
+    }
+	
+	"BGOverlay"
+    {
+        "ControlName"                       "EditablePanel"
+        "fieldName"                         "BGOverlay"
+		
+        "xpos"                              "89"
+        "ypos"                              "319"
+        "zpos"                              "0"
+        "wide"                              "316"
+        "tall"                              "30"
+        "visible"                           "1"
+        "enabled"                           "1"
+        "proportionaltoparent"              "1"
+		
+		
+        "paintbackground"                   "1"
+		"paintbackgroundtype" 				"2"	
+        "bgcolor_override"					"0 0 0 130"
+		
+		
+		"VersionLabel"
+		{
+			"ControlName"						"Label"
+			"fieldName"							"VersionLabel"
+			
+			"xpos"								"0"
+			"ypos"								"0"
+			"wide"          					"316"
+			"tall"          					"30"
+			"visible"                           "1"
+			"enabled"                           "1"
+			"proportionaltoparent"              "1"
+			
+			"textinsetx"						"12"
+			"textinsety"						"10"
+			"font"								"BT_Regular16"
+			"fgcolor_override"					"TanLight"
+			"labelText"							"SaxtonHud Version 0.6"
+		}
+
+    }
+	
+	"GameCreationButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"GameBrowseButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-280"
-		"wide"			"195"
-		"tall"			"34"
+		"fieldName"		"GameCreationButton"
+		"xpos"			"c-340"
+		"ypos"			"rs1-270"
+		"wide"			"160"
+		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2318,7 +2359,47 @@
 		"tabPosition"	"0"
 		"textinsetx"	"8"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"font"			"BT_Bold30"
+		"textAlignment"	"west"
+		"default"		"1"
+			
+		"command"		"opencreatemultiplayergamedialog"
+		"labeltext"		"Start a brawl"
+		"fgcolor" 		"77 70 51 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+			
+		"border_default"    "MainMenuButtonDefault"
+            "border_armed"        "MainMenuButtonArmed"
+            "paintbackground"    "0"
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"
+	}
+	
+	
+	"GameBrowseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"GameBrowseButton"
+		"xpos"			"c-180"
+		"ypos"			"rs1-270"
+		"wide"			"160"
+		"tall"			"46"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"8"
+		"use_proportional_insets" "1"
+		"font"			"BT_Bold30"
 		"textAlignment"	"west"
 		"default"		"1"
 			
@@ -2333,17 +2414,23 @@
 		"border_default"    "MainMenuButtonDefault"
             "border_armed"        "MainMenuButtonArmed"
             "paintbackground"    "0"
-		"image_drawcolor"	"235 226 202 255"	
+		
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-240"
-		"wide"			"195"
-		"tall"			"34"
+		"xpos"			"c-340"
+		"ypos"			"rs1-220"
+		"wide"			"160"
+		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2351,13 +2438,12 @@
 		"tabPosition"	"0"
 		"textinsetx"	"8"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"font"			"BT_Bold30"
 		"textAlignment"	"west"
 		"default"		"1"
 			
 		"command"		"engine open_charinfo"
-		"labeltext"		"The Spoils of War"
-		"fgcolor" 		"77 70 51 255"
+		"labeltext"		"Inventory"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2366,7 +2452,13 @@
 		"border_default"    "MainMenuButtonDefault"
             "border_armed"        "MainMenuButtonArmed"
             "paintbackground"    "0"
-		"image_drawcolor"	"235 226 202 255"	
+			
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"
 	}
 
 
@@ -2374,10 +2466,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-200"
-		"wide"			"195"
-		"tall"			"34"
+		"xpos"			"c-180"
+		"ypos"			"rs1-220"
+		"wide"			"160"
+		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2385,12 +2477,12 @@
 		"tabPosition"	"0"
 		"textinsetx"	"8"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"font"			"BT_Bold30"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"labeltext" "#MMenu_Shop"
+		"labeltext" "Store"
 		"command" "engine open_store"
 		"proportionaltoparent"	"1"
 
@@ -2401,24 +2493,29 @@
             "border_armed"        "MainMenuButtonArmed"
             "paintbackground"    "0"
 				
-		"image_drawcolor"	"235 226 202 255"	
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"	
 	}
 
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-160"
-		"wide"			"195"
-		"tall"			"34"
+		"xpos"			"c-340"
+		"ypos"			"rs1-170"
+		"wide"			"160"
+		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Settings"
-		"font"			"HudFontSmallBold"
+		"font"			"BT_Bold30"
 		"textAlignment"	"west"
 		"textinsetx"	"8"
 		"use_proportional_insets" "1"
@@ -2426,11 +2523,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
+		
 		"border_default"    "MainMenuButtonDefault"
             "border_armed"        "MainMenuButtonArmed"
             "paintbackground"    "0"
 		
-
 		"navUp"			"Notifications_Panel"
 		"navLeft"		"ReportBugButton"
 		"navRight"		"TF2SettingsButton"
@@ -2438,7 +2535,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"
 		
 	}
 
@@ -2446,17 +2548,17 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"c-370"
-		"ypos"			"rs1-120"
-		"wide"			"195"
-		"tall"			"34"
+		"xpos"			"c-180"
+		"ypos"			"rs1-170"
+		"wide"			"160"
+		"tall"			"46"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Advanced Settings"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Adv. Settings"
+		"font"			"BT_Bold30"
 		"textAlignment"	"west"
 		"textinsetx"	"8"
 		"dulltext"		"0"
@@ -2464,6 +2566,7 @@
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
+		
 		"border_default"    "MainMenuButtonDefault"
             "border_armed"        "MainMenuButtonArmed"
             "paintbackground"    "0"
@@ -2474,7 +2577,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
+				
+		"image_drawcolor"	"58 55 54 255"
+		"image_armedcolor"	"235 226 202 255"
 					
 	}
 	

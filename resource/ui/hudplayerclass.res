@@ -7,7 +7,6 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -103,17 +102,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"xpos"			"-1"		
+		"ypos"			"r60"	
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
@@ -127,15 +122,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"xpos"			"755"	
+		"ypos"			"280"	
 		"zpos"			"2"		
 		"wide"			"100"
-		"wide_minmode"	"52"
 		"tall"			"200"
-		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -172,15 +163,13 @@
 			}
 			"Scout"
 			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
-				"angles_y"		"145"
-				"angles_z"		"0"
-				"origin_x"		"105"
+				"fov"			"22"
+				"angles_x"		"-13"
+				"angles_y"		"140"
+				"angles_z"		"2"
+				"origin_x"		"107"
 				"origin_y"		"4"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"origin_z"		"-78"
 			}
 			"Sniper"
 			{

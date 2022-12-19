@@ -25,7 +25,7 @@
 
 	"ItemEffectMeter"
 	{
-		"xpos"				"34"
-		"ypos"				"23"
+		"xpos"					"60"
+		"ypos"					"35"
 	}
 }
