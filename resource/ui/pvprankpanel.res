@@ -328,7 +328,7 @@
 				"fieldName"		"Stats"
 				"xpos"			"250"
 				"ypos"			"344"
-				"wide"			"210"
+				"wide"			"260"
 				"tall"			"53"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -352,8 +352,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"9"
-					"ypos"			"2"
+					"xpos"			"10"
+					"ypos"			"9"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -365,13 +365,34 @@
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
 				}
+				
+				"DeathsLabel"
+				{
+					"ControlName"	"Label"
+					"fieldName"		"DeathsLabel"
+					"xpos"			"10"
+					"ypos"			"33"
+					"zpos"			"0"
+					"wide"			"100"
+					"tall"			"20"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"BTSB_Regular12"
+					"fgcolor_override"	"CreditsGreen"
+					"textAlignment"	"north-west"
+					"labelText"		"%stat_deaths%"
+					"proportionaltoparent"	"1"
+				}
+				
 
+
+				// Second Row
 				"KillsLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"10"
-					"ypos"			"20"
+					"xpos"			"c-36"
+					"ypos"			"9"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -384,31 +405,12 @@
 					"proportionaltoparent"	"1"
 				}
 
-				"DeathsLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"DeathsLabel"
-					"xpos"			"10"
-					"ypos"			"38"
-					"zpos"			"0"
-					"wide"			"100"
-					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"BTSB_Regular12"
-					"fgcolor_override"	"CreditsGreen"
-					"textAlignment"	"north-west"
-					"labelText"		"%stat_deaths%"
-					"proportionaltoparent"	"1"
-				}
-
-				// Second column
 				"DamageLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"StoreDarkTan"
-					"xpos"			"c-20"
-					"ypos"			"2"
+					"fieldName"		"DamageLabel"
+					"xpos"			"c-36"
+					"ypos"			"33"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -421,12 +423,14 @@
 					"proportionaltoparent"	"1"
 				}
 
+
+				// Third Row
 				"HealingLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
-					"ypos"			"20"
+					"xpos"			"c60"
+					"ypos"			"9"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -443,8 +447,8 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-20"
-					"ypos"			"38"
+					"xpos"			"c60"
+					"ypos"			"33"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
@@ -457,7 +461,7 @@
 					"proportionaltoparent"	"1"
 				}
 
-				// Third column
+				// Disabled
 				"ScoreLabel"
 				{
 					"ControlName"	"Label"
